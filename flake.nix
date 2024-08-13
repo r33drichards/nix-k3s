@@ -11,6 +11,7 @@
       system = "x86_64-linux";
       modules = [
         flakery.nixosModules.flakery
+        flakery.nixosConfigurations.base
         ./configuration.nix
       ];
     };
